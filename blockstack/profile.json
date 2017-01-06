@@ -1,39 +1,44 @@
-[{
-  "decodedToken": {
-    "header": {
-      "alg": "ES256K",
-      "typ": "JWT"
-    },
-    "payload": {
-      "issuedAt": "2017-01-05T18:20:02.660794",
-      "claim": {
-        "account": [
-          {
-            "identifier": "wanderingbort",
-            "proofType": "http",
-            "@type": "Account",
-            "service": "github",
-            "proofUrl": "https://gist.github.com/wanderingbort/18ee4303307889aaddca88899dece950"
-          }
-        ],
-        "@type": "Person",
-        "image": [
-          {
-            "contentUrl": "https://s3.amazonaws.com/97p/rVv.jpeg",
-            "name": "cover",
-            "@type": "ImageObject"
-          }
-        ],
-        "name": "Bart Wyatt"
-      },
-      "expiresAt": "2018-01-05T18:20:02.660794",
-      "subject": "038b7fd37135b40a38ac7e891c53231b9a37ed0175c874c64eebe46375c3a37f2f",
-      "issuer": {
-        "publicKey": "038b7fd37135b40a38ac7e891c53231b9a37ed0175c874c64eebe46375c3a37f2f"
-      }
-    },
-    "signature": "fa7-SPoSHr30A09wn_0WT0RYeEJfP3-x_WZlrHzOWraITxg0OGsrizZ175kSdlDiHDk75sLE3DLn2rejubMHDQ"
-  },
-  "token": "eyJhbGciOiJFUzI1NksiLCJ0eXAiOiJKV1QifQ.eyJpc3N1ZWRBdCI6IjIwMTctMDEtMDVUMTg6MjA6MDIuNjYwNzk0IiwiY2xhaW0iOnsiQHR5cGUiOiJQZXJzb24iLCJhY2NvdW50IjpbeyJAdHlwZSI6IkFjY291bnQiLCJwcm9vZlR5cGUiOiJodHRwIiwic2VydmljZSI6ImdpdGh1YiIsImlkZW50aWZpZXIiOiJ3YW5kZXJpbmdib3J0IiwicHJvb2ZVcmwiOiJodHRwczovL2dpc3QuZ2l0aHViLmNvbS93YW5kZXJpbmdib3J0LzE4ZWU0MzAzMzA3ODg5YWFkZGNhODg4OTlkZWNlOTUwIn1dLCJpbWFnZSI6W3siY29udGVudFVybCI6Imh0dHBzOi8vczMuYW1hem9uYXdzLmNvbS85N3AvclZ2LmpwZWciLCJuYW1lIjoiY292ZXIiLCJAdHlwZSI6IkltYWdlT2JqZWN0In1dLCJuYW1lIjoiQmFydCBXeWF0dCJ9LCJleHBpcmVzQXQiOiIyMDE4LTAxLTA1VDE4OjIwOjAyLjY2MDc5NCIsImlzc3VlciI6eyJwdWJsaWNLZXkiOiIwMzhiN2ZkMzcxMzViNDBhMzhhYzdlODkxYzUzMjMxYjlhMzdlZDAxNzVjODc0YzY0ZWViZTQ2Mzc1YzNhMzdmMmYifSwic3ViamVjdCI6IjAzOGI3ZmQzNzEzNWI0MGEzOGFjN2U4OTFjNTMyMzFiOWEzN2VkMDE3NWM4NzRjNjRlZWJlNDYzNzVjM2EzN2YyZiJ9.fa7-SPoSHr30A09wn_0WT0RYeEJfP3-x_WZlrHzOWraITxg0OGsrizZ175kSdlDiHDk75sLE3DLn2rejubMHDQ",
-  "encrypted": false
-}]
+[
+  {
+    "decodedToken": {
+      "header": {
+        "alg": "ES256K", 
+        "typ": "JWT"
+      }, 
+      "payload": {
+        "issuedAt": "2017-01-06T12:27:01.253547", 
+        "claim": {
+          "account": [
+            {
+              "@type": "Account", 
+              "identifier": "wanderingbort", 
+              "proofUrl": "https://gist.github.com/wanderingbort/18ee4303307889aaddca88899dece950", 
+              "service": "github", 
+              "proofType": "http"
+            }
+          ], 
+          "@type": "Person", 
+          "image": [
+            {
+              "contentUrl": "https://s3.amazonaws.com/97p/rVv.jpeg", 
+              "name": "cover", 
+              "@type": "ImageObject"
+            }
+          ], 
+          "name": "Bart Wyatt"
+        }, 
+        "expiresAt": "2018-01-06T12:27:01.253547", 
+        "subject": {
+          "publicKey": "038b7fd37135b40a38ac7e891c53231b9a37ed0175c874c64eebe46375c3a37f2f"
+        }, 
+        "issuer": {
+          "publicKey": "038b7fd37135b40a38ac7e891c53231b9a37ed0175c874c64eebe46375c3a37f2f"
+        }
+      }, 
+      "signature": "zoaQXXd4dSW6GkNGidDzdQf_5eUW-rBZwd2aCKE14-hsEcNJ3nM7uHUd4-O8nCokT7NJnPADGH5UG52NVfRW1A"
+    }, 
+    "token": "eyJhbGciOiJFUzI1NksiLCJ0eXAiOiJKV1QifQ.eyJpc3N1ZWRBdCI6IjIwMTctMDEtMDZUMTI6Mjc6MDEuMjUzNTQ3IiwiY2xhaW0iOnsiYWNjb3VudCI6W3siaWRlbnRpZmllciI6IndhbmRlcmluZ2JvcnQiLCJwcm9vZlVybCI6Imh0dHBzOi8vZ2lzdC5naXRodWIuY29tL3dhbmRlcmluZ2JvcnQvMThlZTQzMDMzMDc4ODlhYWRkY2E4ODg5OWRlY2U5NTAiLCJwcm9vZlR5cGUiOiJodHRwIiwic2VydmljZSI6ImdpdGh1YiIsIkB0eXBlIjoiQWNjb3VudCJ9XSwiQHR5cGUiOiJQZXJzb24iLCJpbWFnZSI6W3siY29udGVudFVybCI6Imh0dHBzOi8vczMuYW1hem9uYXdzLmNvbS85N3AvclZ2LmpwZWciLCJuYW1lIjoiY292ZXIiLCJAdHlwZSI6IkltYWdlT2JqZWN0In1dLCJuYW1lIjoiQmFydCBXeWF0dCJ9LCJleHBpcmVzQXQiOiIyMDE4LTAxLTA2VDEyOjI3OjAxLjI1MzU0NyIsImlzc3VlciI6eyJwdWJsaWNLZXkiOiIwMzhiN2ZkMzcxMzViNDBhMzhhYzdlODkxYzUzMjMxYjlhMzdlZDAxNzVjODc0YzY0ZWViZTQ2Mzc1YzNhMzdmMmYifSwic3ViamVjdCI6eyJwdWJsaWNLZXkiOiIwMzhiN2ZkMzcxMzViNDBhMzhhYzdlODkxYzUzMjMxYjlhMzdlZDAxNzVjODc0YzY0ZWViZTQ2Mzc1YzNhMzdmMmYifX0.zoaQXXd4dSW6GkNGidDzdQf_5eUW-rBZwd2aCKE14-hsEcNJ3nM7uHUd4-O8nCokT7NJnPADGH5UG52NVfRW1A", 
+    "parentPublicKey": "038b7fd37135b40a38ac7e891c53231b9a37ed0175c874c64eebe46375c3a37f2f", 
+    "encrypted": false
+  }
+]
