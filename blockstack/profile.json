@@ -6,15 +6,33 @@
         "typ": "JWT"
       }, 
       "payload": {
-        "issuedAt": "2017-01-06T12:27:01.253547", 
+        "issuedAt": "2017-01-10T11:44:29.487989", 
         "claim": {
           "account": [
             {
-              "@type": "Account", 
               "identifier": "wanderingbort", 
-              "proofUrl": "https://gist.github.com/wanderingbort/18ee4303307889aaddca88899dece950", 
+              "proofType": "http", 
+              "@type": "Account", 
               "service": "github", 
-              "proofType": "http"
+              "proofUrl": "https://gist.github.com/wanderingbort/18ee4303307889aaddca88899dece950"
+            }, 
+            {
+              "identifier": "ElBarto", 
+              "pubkey": "020d6876d9862ae4b749a90692221c0bbc6accb4c44f0a2aa665c6051dcb606c35", 
+              "@type": "Account", 
+              "service": "alias"
+            }, 
+            {
+              "identifier": "Voldebort", 
+              "pubkey": "032fd9021ff00e11c792def97339fb5de861c0318e5ef24936c392e88d6631e4ea", 
+              "@type": "Account", 
+              "service": "alias"
+            }, 
+            {
+              "identifier": "BortByBortWest", 
+              "pubkey": "03fd9c1cbe731dc4807834b18db26a6b3a1242e073ae894316f6df9c36332f43fe", 
+              "@type": "Account", 
+              "service": "alias"
             }
           ], 
           "@type": "Person", 
@@ -27,7 +45,7 @@
           ], 
           "name": "Bart Wyatt"
         }, 
-        "expiresAt": "2018-01-06T12:27:01.253547", 
+        "expiresAt": "2018-01-10T11:44:29.487989", 
         "subject": {
           "publicKey": "038b7fd37135b40a38ac7e891c53231b9a37ed0175c874c64eebe46375c3a37f2f"
         }, 
@@ -35,9 +53,9 @@
           "publicKey": "038b7fd37135b40a38ac7e891c53231b9a37ed0175c874c64eebe46375c3a37f2f"
         }
       }, 
-      "signature": "zoaQXXd4dSW6GkNGidDzdQf_5eUW-rBZwd2aCKE14-hsEcNJ3nM7uHUd4-O8nCokT7NJnPADGH5UG52NVfRW1A"
+      "signature": "7JVReY-Yo1oPo2HMk8B-B35xo_ZFahmOaXBMg267SIWKcWUwcCFJWuPNmORLLKiTub3z6n--Fg12f1jcfl_0eQ"
     }, 
-    "token": "eyJhbGciOiJFUzI1NksiLCJ0eXAiOiJKV1QifQ.eyJpc3N1ZWRBdCI6IjIwMTctMDEtMDZUMTI6Mjc6MDEuMjUzNTQ3IiwiY2xhaW0iOnsiYWNjb3VudCI6W3siaWRlbnRpZmllciI6IndhbmRlcmluZ2JvcnQiLCJwcm9vZlVybCI6Imh0dHBzOi8vZ2lzdC5naXRodWIuY29tL3dhbmRlcmluZ2JvcnQvMThlZTQzMDMzMDc4ODlhYWRkY2E4ODg5OWRlY2U5NTAiLCJwcm9vZlR5cGUiOiJodHRwIiwic2VydmljZSI6ImdpdGh1YiIsIkB0eXBlIjoiQWNjb3VudCJ9XSwiQHR5cGUiOiJQZXJzb24iLCJpbWFnZSI6W3siY29udGVudFVybCI6Imh0dHBzOi8vczMuYW1hem9uYXdzLmNvbS85N3AvclZ2LmpwZWciLCJuYW1lIjoiY292ZXIiLCJAdHlwZSI6IkltYWdlT2JqZWN0In1dLCJuYW1lIjoiQmFydCBXeWF0dCJ9LCJleHBpcmVzQXQiOiIyMDE4LTAxLTA2VDEyOjI3OjAxLjI1MzU0NyIsImlzc3VlciI6eyJwdWJsaWNLZXkiOiIwMzhiN2ZkMzcxMzViNDBhMzhhYzdlODkxYzUzMjMxYjlhMzdlZDAxNzVjODc0YzY0ZWViZTQ2Mzc1YzNhMzdmMmYifSwic3ViamVjdCI6eyJwdWJsaWNLZXkiOiIwMzhiN2ZkMzcxMzViNDBhMzhhYzdlODkxYzUzMjMxYjlhMzdlZDAxNzVjODc0YzY0ZWViZTQ2Mzc1YzNhMzdmMmYifX0.zoaQXXd4dSW6GkNGidDzdQf_5eUW-rBZwd2aCKE14-hsEcNJ3nM7uHUd4-O8nCokT7NJnPADGH5UG52NVfRW1A", 
+    "token": "eyJhbGciOiJFUzI1NksiLCJ0eXAiOiJKV1QifQ.eyJpc3N1ZWRBdCI6IjIwMTctMDEtMTBUMTE6NDQ6MjkuNDg3OTg5IiwiY2xhaW0iOnsiQHR5cGUiOiJQZXJzb24iLCJhY2NvdW50IjpbeyJAdHlwZSI6IkFjY291bnQiLCJwcm9vZlR5cGUiOiJodHRwIiwic2VydmljZSI6ImdpdGh1YiIsImlkZW50aWZpZXIiOiJ3YW5kZXJpbmdib3J0IiwicHJvb2ZVcmwiOiJodHRwczovL2dpc3QuZ2l0aHViLmNvbS93YW5kZXJpbmdib3J0LzE4ZWU0MzAzMzA3ODg5YWFkZGNhODg4OTlkZWNlOTUwIn0seyJpZGVudGlmaWVyIjoiRWxCYXJ0byIsInB1YmtleSI6IjAyMGQ2ODc2ZDk4NjJhZTRiNzQ5YTkwNjkyMjIxYzBiYmM2YWNjYjRjNDRmMGEyYWE2NjVjNjA1MWRjYjYwNmMzNSIsIkB0eXBlIjoiQWNjb3VudCIsInNlcnZpY2UiOiJhbGlhcyJ9LHsiaWRlbnRpZmllciI6IlZvbGRlYm9ydCIsInB1YmtleSI6IjAzMmZkOTAyMWZmMDBlMTFjNzkyZGVmOTczMzlmYjVkZTg2MWMwMzE4ZTVlZjI0OTM2YzM5MmU4OGQ2NjMxZTRlYSIsIkB0eXBlIjoiQWNjb3VudCIsInNlcnZpY2UiOiJhbGlhcyJ9LHsiaWRlbnRpZmllciI6IkJvcnRCeUJvcnRXZXN0IiwicHVia2V5IjoiMDNmZDljMWNiZTczMWRjNDgwNzgzNGIxOGRiMjZhNmIzYTEyNDJlMDczYWU4OTQzMTZmNmRmOWMzNjMzMmY0M2ZlIiwiQHR5cGUiOiJBY2NvdW50Iiwic2VydmljZSI6ImFsaWFzIn1dLCJpbWFnZSI6W3siY29udGVudFVybCI6Imh0dHBzOi8vczMuYW1hem9uYXdzLmNvbS85N3AvclZ2LmpwZWciLCJuYW1lIjoiY292ZXIiLCJAdHlwZSI6IkltYWdlT2JqZWN0In1dLCJuYW1lIjoiQmFydCBXeWF0dCJ9LCJleHBpcmVzQXQiOiIyMDE4LTAxLTEwVDExOjQ0OjI5LjQ4Nzk4OSIsImlzc3VlciI6eyJwdWJsaWNLZXkiOiIwMzhiN2ZkMzcxMzViNDBhMzhhYzdlODkxYzUzMjMxYjlhMzdlZDAxNzVjODc0YzY0ZWViZTQ2Mzc1YzNhMzdmMmYifSwic3ViamVjdCI6eyJwdWJsaWNLZXkiOiIwMzhiN2ZkMzcxMzViNDBhMzhhYzdlODkxYzUzMjMxYjlhMzdlZDAxNzVjODc0YzY0ZWViZTQ2Mzc1YzNhMzdmMmYifX0.7JVReY-Yo1oPo2HMk8B-B35xo_ZFahmOaXBMg267SIWKcWUwcCFJWuPNmORLLKiTub3z6n--Fg12f1jcfl_0eQ", 
     "parentPublicKey": "038b7fd37135b40a38ac7e891c53231b9a37ed0175c874c64eebe46375c3a37f2f", 
     "encrypted": false
   }
